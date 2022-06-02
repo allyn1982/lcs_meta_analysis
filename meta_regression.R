@@ -1,14 +1,14 @@
 library(meta)
 library(metafor)
 library(lme4)
-source('C:/Users/yanna/Desktop/Submission/code/functions.R')
+source('~/functions.R')
 
 ####################
 #### preprocess ####
 ####################
 
 # load data
-data <- read.csv('C:/Users/yanna/Desktop/Submission/data/meta_regression.csv', header = T)
+data <- read.csv('~/meta_regression.csv', header = T)
 
 data_defined <- subset(data, data$type=='defined')
 data_anytime <- subset(data, data$type=='anytime')
