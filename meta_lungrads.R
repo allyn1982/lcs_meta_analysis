@@ -1,13 +1,13 @@
 library(meta)
 library(metafor)
-source('/Users/yannanlin/Desktop/YL/Submission/code/functions.R')
+source('~functions.R')
 
 ####################
 #### preprocess ####
 ####################
 
 # load data
-data <- read.csv('/Users/yannanlin/Desktop/YL/Submission/data/meta_lungrads.csv')
+data <- read.csv('~meta_lungrads.csv')
 
 
 # subset data
